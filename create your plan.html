@@ -1,108 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <title>Document</title>
+    <title>Create your plan — Coffeeroasters</title>
+    <script>document.documentElement.classList.add("js")</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
-    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
-    <div class="header">
+    <header class="header">
         <div class="container header__container">
-            <img src="./img/Group 5-1.png" alt="img" width="236" height="26">
+            <a class="header__logo" href="./index.html"><img src="./img/Group 5-1.png" alt="Coffeeroasters" width="236" height="26"></a>
             <ul class="header__list">
-                <li class="header__item"><a class="header__link" href="./index.html">HOME</a></li>
-                <li class="header__item"><a class="header__link" href="./about us.html">ABOUT US</a></li>
-                <li class="header__item"><a class="header__link" href="./create your plan.html">Create your plan</a></li>
-
+                <li><a class="header__link" href="./index.html">Home</a></li>
+                <li><a class="header__link" href="./about%20us.html">About us</a></li>
+                <li><a class="header__link header__cta" href="./create%20your%20plan.html" aria-current="page">Create your plan</a></li>
             </ul>
-
         </div>
+    </header>
 
-    </div>
-    <!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
-    <div class="wrapper">
-        <div class="container wrapper__container">
-            <h1 class="wrapper__title">Create plan</h1>
-            <p class="wrapper__text">Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality.</p>
-           
-
-        </div>
-
-    </div>
-    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
-    <div class="services">
-        <div class="container services__container">
-            <div class="box">
-            <hr class="services__hr">
-            <img class="img__1" src="./img/Oval.png" alt="service" width="30" height="30">
-            <img class="img__2"  src="./img/Oval.png" alt="service" width="30" height="30">
-            <img class="img__3"  src="./img/Oval.png" alt="service" width="30" height="30">
+    <main>
+        <section class="hero hero--plan">
+            <div class="container hero__container">
+                <h1 class="hero__title" data-reveal="up" data-delay="100">Create plan</h1>
+                <p class="hero__text" data-reveal="up" data-delay="250">Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality.</p>
             </div>
-            <ul class="services__list">
-                <li class="services__item">
-                    <h1 class="title">01</h1>
-                    <h3 class="title_down">Pick your coffee</h3>
-                    <p class="services__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+        </section>
 
-                </li>
-                <li class="services__item">
-                    <h1 class="title">02</h1>
-                    <h3 class="title_down">Choose the frequency</h3>
-                    <p class="services__text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
-
-                </li>
-                <li class="services__item">
-                    <h1 class="title">03</h1>
-                    <h3 class="title_down">Receive and enjoy!</h3>
-                    <p class="services__text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
-
-                </li>
-
-            </ul>
-
-        </div>
-        <!-- ----------------------------------------------down----------------------------------------------------------------------------------------------------------------------------------- -->
-        <div class="down">
-            <div class="conainer down__container">
-                <ul class="down__list">
-            <li class="down__item"> <a class="down_link" href="#">01</a><a class="down__link" href="./index.html">Preferences</a></li>
-            <hr class="down__hr">
-            <li class="down__item"> <a class="down_link" href="#">02</a><a class="down__link" href="./about us.html">Bean Type</a></li>
-            <hr class="down__hr">
-            <li class="down__item"><a class="down_link" href="#">03</a><a class="down__link" href="./create your plan.html">Quantity</a></li>
-            <hr class="down__hr">
-            <li class="down__item"> <a class="down_link" href="#">04</a><a class="down__link" href="./about us.html">Grind Option</a></li>
-            <hr class="down__hr">
-            <li class="down__item"><a class="down_link" href="#">05</a><a class="down__link" href="./create your plan.html">Deliveries</a></li>
+        <section class="steps steps--dark">
+            <div class="container">
+                <ul class="steps__list">
+                <li class="steps__item" data-reveal="up" data-delay="0"><p class="steps__num">01</p><h3 class="steps__name">Pick your coffee</h3><p class="steps__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p></li>
+                <li class="steps__item" data-reveal="up" data-delay="120"><p class="steps__num">02</p><h3 class="steps__name">Choose the frequency</h3><p class="steps__text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p></li>
+                <li class="steps__item" data-reveal="up" data-delay="240"><p class="steps__num">03</p><h3 class="steps__name">Receive and enjoy!</h3><p class="steps__text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p></li>
             </ul>
             </div>
+        </section>
 
+        <section class="plan">
+            <div class="container plan__grid">
+                <ol class="plan__list">
+                    <li><a class="plan__link" href="#q1"><span class="plan__num">01</span>Preferences</a></li>
+                    <li><a class="plan__link" href="#q2"><span class="plan__num">02</span>Bean type</a></li>
+                    <li><a class="plan__link" href="#q3"><span class="plan__num">03</span>Quantity</a></li>
+                    <li><a class="plan__link" href="#q4"><span class="plan__num">04</span>Grind option</a></li>
+                    <li><a class="plan__link" href="#q5"><span class="plan__num">05</span>Deliveries</a></li>
+                </ol>
+                <div>
+                    <form class="builder" id="builder">
+                        <fieldset class="builder__group" id="q1" data-reveal="up"><legend>How do you drink your coffee?</legend><div class="opts"><label class="opt"><input type="radio" name="drink" value="Capsules" checked><span class="opt__body"><strong>Capsules</strong><small>Compatible with Nespresso systems and similar brewers</small></span></label><label class="opt"><input type="radio" name="drink" value="Filter"><span class="opt__body"><strong>Filter</strong><small>For pour-over or drip methods like Aeropress, Chemex and V60</small></span></label><label class="opt"><input type="radio" name="drink" value="Espresso"><span class="opt__body"><strong>Espresso</strong><small>Dense and finely ground beans for an intense, flavorful experience</small></span></label></div></fieldset>
+                        <fieldset class="builder__group" id="q2" data-reveal="up"><legend>What type of coffee?</legend><div class="opts"><label class="opt"><input type="radio" name="bean" value="Single origin" checked><span class="opt__body"><strong>Single origin</strong><small>Distinct, high quality coffee from a specific farm</small></span></label><label class="opt"><input type="radio" name="bean" value="Decaf"><span class="opt__body"><strong>Decaf</strong><small>Just like regular coffee, except the caffeine has been removed</small></span></label><label class="opt"><input type="radio" name="bean" value="Blended"><span class="opt__body"><strong>Blended</strong><small>A combination of two or three beans for a balanced cup</small></span></label></div></fieldset>
+                        <fieldset class="builder__group" id="q3" data-reveal="up"><legend>How much would you like?</legend><div class="opts"><label class="opt"><input type="radio" name="qty" value="250g" checked><span class="opt__body"><strong>250g</strong><small>A small bag, perfect for one or two people</small></span></label><label class="opt"><input type="radio" name="qty" value="500g"><span class="opt__body"><strong>500g</strong><small>Ideal for a larger household or regular drinkers</small></span></label><label class="opt"><input type="radio" name="qty" value="1000g"><span class="opt__body"><strong>1000g</strong><small>Great for offices and the biggest coffee lovers</small></span></label></div></fieldset>
+                        <fieldset class="builder__group" id="q4" data-reveal="up"><legend>Want us to grind them?</legend><div class="opts"><label class="opt"><input type="radio" name="grind" value="Wholebean" checked><span class="opt__body"><strong>Wholebean</strong><small>Best if you cherish the full sensory experience</small></span></label><label class="opt"><input type="radio" name="grind" value="Filter"><span class="opt__body"><strong>Filter</strong><small>For drip or pour-over coffee methods</small></span></label><label class="opt"><input type="radio" name="grind" value="Cafetiére"><span class="opt__body"><strong>Cafetiére</strong><small>Coarse ground beans, suited for french press coffee</small></span></label></div></fieldset>
+                        <fieldset class="builder__group" id="q5" data-reveal="up"><legend>How often should we deliver?</legend><div class="opts"><label class="opt"><input type="radio" name="freq" value="Every week" checked><span class="opt__body"><strong>Every week</strong><small>A fresh bag arrives every week</small></span></label><label class="opt"><input type="radio" name="freq" value="Every 2 weeks"><span class="opt__body"><strong>Every 2 weeks</strong><small>A fresh bag arrives every second week</small></span></label><label class="opt"><input type="radio" name="freq" value="Every month"><span class="opt__body"><strong>Every month</strong><small>A fresh bag arrives once a month</small></span></label></div></fieldset>
+                    </form>
+                    <div class="summary" data-reveal="zoom">
+                        <p class="summary__label">Order summary</p>
+                        <p class="summary__text">“I drink my coffee as <b data-out="drink">Capsules</b>, with a <b data-out="bean">Single origin</b> type of bean. <b data-out="qty">250g</b> ground ala <b data-out="grind">Wholebean</b>, sent to me <b data-out="freq">Every week</b>.”</p>
+                        <button class="btn" type="button" id="createPlan">Create my plan</button>
+                        <p class="summary__done" id="planDone" hidden>Thank you! Your plan has been saved (demo).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container">
+                <div class="cta__box" data-reveal="zoom">
+                    <h2 class="cta__title">Great coffee, delivered on your schedule.</h2>
+                    <p class="cta__text">Get 30% off your first shipment when you subscribe. Pause, skip or cancel any time.</p>
+                    <a class="btn btn--light" href="./create%20your%20plan.html">Create your plan</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer class="footer">
+        <div class="container footer__container">
+            <a href="./index.html"><img src="./img/Group 5.png" alt="Coffeeroasters" width="236" height="26"></a>
+            <ul class="footer__list">
+                <li><a class="footer__link" href="./index.html">Home</a></li>
+                <li><a class="footer__link" href="./about%20us.html">About us</a></li>
+                <li><a class="footer__link" href="./create%20your%20plan.html">Create your plan</a></li>
+            </ul>
+            <div class="socials">
+                <a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+            </div>
         </div>
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<div class="footer">
-    <div class="conainer footer__container">
-      <img src="./img/Group 5.png" alt="footer" width="236"  height="26" >
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a class="footer__link" href="#">HOME</a>
-          <a class="footer__link" href="#">ABOUT US</a>
-          <a class="footer__link" href="#">Create your plan</a>
-
-        </li>
-      </ul>
-      <ul>
-      <i class="fa fa-facebook" style="font-size:25px;"></i>
-      <i class="fa fa-instagram" style="font-size:25px; "></i>
-      <i class="fa fa-twitter" style="font-size:25px; "></i>
-      </ul>
-
-    </div>        
-  </div>
-
-
+    </footer>
+    <script src="./main.js"></script>
 </body>
+
 </html>
